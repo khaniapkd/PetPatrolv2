@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PetPatrolApp.iml" filepath="$PROJECT_DIR$/PetPatrolApp.iml" />
+      <module fileurl="file://D:\Kuliah\Semester 6\RPL\PetPatrolv2\PetPatrolApp.iml" filepath="D:\Kuliah\Semester 6\RPL\PetPatrolv2\PetPatrolApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PetPatrolv2.iml" filepath="$PROJECT_DIR$/PetPatrolv2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Kuliah\Semester 6\RPL\PetPatrolv2\app\app.iml" filepath="D:\Kuliah\Semester 6\RPL\PetPatrolv2\app\app.iml" />
     </modules>
   </component>
 </project>
