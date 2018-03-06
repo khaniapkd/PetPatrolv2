@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.petpatrol.petpatrolapp.PetCareRegisterActivity"
+    android:background="#FF7A5A">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Pendaftaran Pet Care"
+            android:textColor="#ffffff"
+            android:textSize="28dp"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView"
+            android:ems="10"
+
+            android:hint="Alamat Pet Care"
+            android:inputType="textPersonName"
+            android:textColorHint="#ffffff"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="134dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView"
+            android:ems="10"
+
+            android:hint="Jenis Hewan Yang Dapat Ditampung"
+            android:inputType="textPersonName"
+            android:textColorHint="#ffffff"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="134dp" />
+
+
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/relativeLayout"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+
+            android:hint="Fasilitas yang Disediakan"
+            android:inputType="textPersonName"
+            android:textColorHint="#ffffff" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+
+            android:hint="Biaya Inap"
+            android:inputType="textPersonName"
+            android:textColorHint="#ffffff" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+
+            android:hint="Kapasitas Maksimal"
+            android:inputType="textPersonName"
+            android:textColorHint="#ffffff" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+
+            android:hint="Jam Operasional"
+            android:inputType="textPersonName"
+            android:textColorHint="#ffffff" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="#FFB85F"
+        android:textColor="#ffffff"
+        android:text="Submit" />
+
+
+</RelativeLayout>
