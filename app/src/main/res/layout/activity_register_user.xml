@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.petpatrol.petpatrolapp.RegisterUser">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="1080px"
+            android:layout_height="1920px"
+            android:src="@drawable/formregistrasi"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="240dp" />
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:layout_gravity="center"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="244dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:layout_gravity="center"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="290dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:layout_gravity="center"
+                android:hint="Password"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="336dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:layout_gravity="center"
+                android:hint="Retype Password"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="382dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:background="#ffb85f"
+                tools:layout_editor_absoluteX="129dp"
+                tools:layout_editor_absoluteY="446dp" />
+
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
