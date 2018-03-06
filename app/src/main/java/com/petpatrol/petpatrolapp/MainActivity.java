@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void send_email(View view) {
-        Intent intent = new Intent(ForgotPassword.this,ForgotPassword2.class );
+        Intent intent = new Intent(MainActivity.this,ForgotPassword2.class );
         startActivity(intent);
     }
 }
