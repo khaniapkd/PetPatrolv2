@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PetPatrolApp</string>
+    <string name="text_forgot_1">We will send you your last password used. Please enter your email address below and click send email to send your password to your email address</string>
+    <string name="email_address">Email Address</string>
+    <string name="send_email">SEND EMAIL</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="pet_patrol">PET PATROL</string>
+    <string name="not_a_member">Not a member ?</string>
+    <string name="text_forgot_2">Your old password has been sent to your email. Please don't reply our automated email.</string>
+    <string name="back_to_login">back to login</string>
 </resources>
