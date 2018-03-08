@@ -5,18 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class ForgotPassword2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-z
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_forgot_password2);
     }
 
-    public void send_email(View view) {
-        Intent intent = new Intent(MainActivity.this,ForgotPassword2.class );
+    public void Back_login(View view) {
+        Intent intent = new Intent(ForgotPassword2.this, MainActivity.class);
         startActivity(intent);
     }
 }
