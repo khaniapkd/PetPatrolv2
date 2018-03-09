@@ -9,14 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Splash.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ForgotPassword2"></activity>
+        <activity android:name=".Login.MainActivity" />
+        <activity android:name=".Register.PetCareRegisterActivity" />
+        <activity android:name=".ForgotPassword.ForgotPassword2" />
+        <activity android:name=".SignOut"></activity>
     </application>
 
 </manifest>

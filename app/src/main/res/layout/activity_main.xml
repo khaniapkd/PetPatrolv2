@@ -26,19 +26,20 @@
             android:paddingTop="30dp">
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/email"
+                style="@android:style/Widget.Material.Light.EditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="User Name"
-                android:inputType="textPersonName" />
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
 
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="2dp" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -63,10 +64,12 @@
 
 
             <Button
+                android:id="@+id/login"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="22dp"
                 android:background="#d67601"
+                android:onClick="SignIn"
                 android:text="Sign in"
                 android:textAllCaps="false"
                 android:textColor="#fff"

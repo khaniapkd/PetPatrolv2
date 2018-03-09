@@ -1,11 +1,13 @@
-package com.petpatrol.petpatrolapp;
+package com.petpatrol.petpatrolapp.Splash;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Window;
 import android.widget.TextView;
+
+import com.petpatrol.petpatrolapp.Login.MainActivity;
+import com.petpatrol.petpatrolapp.R;
 
 
 public class Splash extends AppCompatActivity {

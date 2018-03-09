@@ -1,7 +1,11 @@
-package com.petpatrol.petpatrolapp;
+package com.petpatrol.petpatrolapp.Register;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+
+import com.petpatrol.petpatrolapp.R;
 
 public class PetCareRegisterActivity extends AppCompatActivity {
 
