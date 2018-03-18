@@ -6,24 +6,30 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.facebook.CallbackManager;
+import com.facebook.FacebookActivity;
+import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.petpatrol.petpatrolapp.ForgotPassword.ForgotPassword2;
 import com.petpatrol.petpatrolapp.Register.PetCareRegisterActivity;
 import com.petpatrol.petpatrolapp.R;
-import com.petpatrol.petpatrolapp.SignOut;
+import com.petpatrol.petpatrolapp.SignIn.SignIn;
+import com.petpatrol.petpatrolapp.SignOut.SignOut;
 
 public class MainActivity extends AppCompatActivity {
 
     private EditText mEmail;
     private EditText mPassword;
     private Button mlogin;
+
 
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
@@ -36,18 +42,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         mEmail = (EditText) findViewById(R.id.email);
         mPassword = (EditText) findViewById(R.id.password);
         mlogin = (Button) findViewById(R.id.login);
 
-        mAuth = FirebaseAuth.getInstance();
 
+
+        mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {
 
             @Override
-
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
 
                 if (firebaseAuth.getCurrentUser() != null) {
@@ -70,8 +75,7 @@ public class MainActivity extends AppCompatActivity {
         String password = mPassword.getText().toString();
 
         if (TextUtils.isEmpty(email) | TextUtils.isEmpty(password)) {
-
-            Toast.makeText(MainActivity.this, "Fields are Empty", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Harap isi Email dan Password Anda", Toast.LENGTH_SHORT).show();
 
         } else {
 
@@ -81,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
                 public void onComplete(@NonNull Task task) {
                     if (!task.isSuccessful()) {
-                        Toast.makeText(MainActivity.this, "Login Problem", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Login Error", Toast.LENGTH_SHORT).show();
                     }
                 }
             });
@@ -111,4 +115,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void loginFB(View view) {
+        Intent intent = new Intent(MainActivity.this, SignIn.class);
+        startActivity(intent);
+    }
 }

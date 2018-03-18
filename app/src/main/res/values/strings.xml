@@ -8,4 +8,10 @@
     <string name="not_a_member">Not a member ?</string>
     <string name="text_forgot_2">Your old password has been sent to your email. Please don't reply our automated email.</string>
     <string name="back_to_login">back to login</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_app_id">502643356797262</string>
+    <string name="fb_login_protocol_scheme">fb502643356797262</string>
+
+
 </resources>

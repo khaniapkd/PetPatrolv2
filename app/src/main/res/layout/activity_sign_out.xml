@@ -25,42 +25,9 @@
             android:orientation="vertical"
             android:paddingTop="30dp">
 
-            <EditText
-                android:id="@+id/email"
-                style="@android:style/Widget.Material.Light.EditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Email"
-                android:inputType="textEmailAddress" />
-
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="2dp" />
-
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Password"
-                android:inputType="textPassword" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:paddingTop="5dp"
-                android:text="Forgot Password"
-                android:onClick="forgot"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:paddingTop="5dp"
-                android:text="Sign Up"
-                android:onClick="SignUp"/>
 
 
             <Button
@@ -69,18 +36,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="22dp"
                 android:background="#d67601"
-                android:onClick="SignIn"
-                android:text="Sign in"
+                android:onClick="SignOut"
+                android:text="Sign Out"
                 android:textAllCaps="false"
                 android:textColor="#fff"
                 android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Facebook"
-                android:onClick="loginFB"/>
 
         </LinearLayout>
     </RelativeLayout>
