@@ -12,6 +12,17 @@
     <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
     <string name="facebook_app_id">502643356797262</string>
     <string name="fb_login_protocol_scheme">fb502643356797262</string>
+    <string name="nama_pet_care">Nama Pet Care</string>
+    <string name="no_telepon">No Telepon</string>
+    <string name="nama_rekening">Nama Rekening</string>
+    <string name="nomor_rekening">Nomor Rekening</string>
+    <string name="foto_pet_care">Foto Pet Care</string>
+    <string name="submit">Submit</string>
+    <string name="usr_username">Username</string>
+    <string name="usr_email">Email</string>
+    <string name="usr_password">Password</string>
+    <string name="usr_retype_password">Retype Password</string>
+    <string name="usr_submit">Submit</string>
 
 
 </resources>
