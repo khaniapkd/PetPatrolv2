@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "928319757083",
+    "firebase_url": "https://pet-patrol-254c6.firebaseio.com",
+    "project_id": "pet-patrol-254c6",
+    "storage_bucket": "pet-patrol-254c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928319757083:android:9c51cd4abd934d36",
+        "android_client_info": {
+          "package_name": "com.petpatrol.petpatrolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928319757083-24a2bcka3pk8vp8cugri6ds7inkdab9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petpatrol.petpatrolapp",
+            "certificate_hash": "5d800e513588523ae9a1adc54ef20820df9bdf4c"
+          }
+        },
+        {
+          "client_id": "928319757083-jdtr9n80qhj2furgttrpk7gka7e2vpob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petpatrol.petpatrolapp",
+            "certificate_hash": "e4457837a913b9148b03089d6a37065af9e0ea98"
+          }
+        },
+        {
+          "client_id": "928319757083-1si9ojqpju9nrc2eu5s4opl5df7p66lc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petpatrol.petpatrolapp",
+            "certificate_hash": "59f548e410f149d6816cff995ccb1fc490cf507e"
+          }
+        },
+        {
+          "client_id": "928319757083-gi9s8cca3l2sg2k039q569qepgn3eqld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJEqmXXddOOvYSbiFZMQKFsunK8E48nZc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928319757083-gi9s8cca3l2sg2k039q569qepgn3eqld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
