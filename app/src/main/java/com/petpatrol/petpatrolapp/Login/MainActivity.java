@@ -18,6 +18,7 @@ import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+import com.petpatrol.petpatrolapp.Dashboard.MainMenu;
 import com.petpatrol.petpatrolapp.ForgotPassword.ForgotPassword2;
 import com.petpatrol.petpatrolapp.Register.PetCareRegisterActivity;
 import com.petpatrol.petpatrolapp.R;
@@ -60,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (firebaseAuth.getCurrentUser() != null) {
 
-                    startActivity(new Intent(MainActivity.this, SignOut.class) );
+                    startActivity(new Intent(MainActivity.this, MainMenu.class) );
                 }
             }
         };
@@ -115,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loginFB(View view) {
-        Intent intent = new Intent(MainActivity.this, SignIn.class);
+        Intent intent = new Intent(MainActivity.this, MainMenu.class);
         startActivity(intent);
     }
 
