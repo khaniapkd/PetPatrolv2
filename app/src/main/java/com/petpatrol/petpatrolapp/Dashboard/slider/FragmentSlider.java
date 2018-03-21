@@ -1,14 +1,14 @@
 package com.petpatrol.petpatrolapp.Dashboard.slider;
 
-import android.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.petpatrol.petpatrolapp.R;
 import com.bumptech.glide.Glide;
+import com.petpatrol.petpatrolapp.R;
 
 
 public class FragmentSlider extends Fragment {
