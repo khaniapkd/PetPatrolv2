@@ -3,6 +3,7 @@
     package="com.petpatrol.petpatrolapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -22,8 +23,7 @@
         <activity android:name=".Register.PetCareRegisterActivity" />
         <activity android:name=".ForgotPassword.ForgotPassword2" />
         <activity android:name=".SignIn.SignIn" />
-        <activity android:name=".Dashboard.MainMenu"/>
-        <activity android:name=".SignOut.SignOut"></activity>
+        <activity android:name=".SignOut.SignOut" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -45,6 +45,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainMenu.MainMenuUser"></activity>
     </application>
 
 </manifest>
