@@ -5,12 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.google.firebase.auth.FirebaseAuth;
-import com.petpatrol.petpatrolapp.Login.MainActivity;
 import com.petpatrol.petpatrolapp.R;
 import com.petpatrol.petpatrolapp.Register.PetCareRegisterActivity;
-import com.petpatrol.petpatrolapp.SignIn.SignIn;
-import com.petpatrol.petpatrolapp.ForgotPassword.ForgotPassword;
 
 public class ForgotPassword2 extends AppCompatActivity {
 

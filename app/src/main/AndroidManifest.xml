@@ -27,6 +27,7 @@
         <activity android:name=".ForgotPassword.ForgotPassword2" />
         <activity android:name=".SignIn.SignIn" />
         <activity android:name=".SignOut.SignOut" />
+        <activity android:name=".MainMenu.MainMenuUser"></activity>
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -48,7 +49,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainMenu.MainMenuUser"></activity>
+        
     </application>
 
 </manifest>
