@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/lovely_time"/>
+    <item
+        android:title="Booked"
+        android:icon="@drawable/lovely_time"/>
+    <item
+        android:title="Pet Status"
+        android:icon="@drawable/lovely_time"/>
+    <item
+        android:title="My Shop"
+        android:icon="@drawable/lovely_time"/>
+
+</menu>
