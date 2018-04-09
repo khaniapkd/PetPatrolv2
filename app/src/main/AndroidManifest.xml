@@ -13,21 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Splash.Splash">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".Register.RegisterUser" android:exported="true" />
+        <activity
+            android:name=".Register.RegisterUser"
+            android:exported="true" />
         <activity android:name=".Login.MainActivity" />
         <activity android:name=".Register.PetCareRegisterActivity" />
         <activity android:name=".ForgotPassword.ForgotPassword2" />
         <activity android:name=".SignIn.SignIn" />
         <activity android:name=".SignOut.SignOut" />
-        <activity android:name=".MainMenu.MainMenuUser"></activity>
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -49,7 +48,9 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        
+        <activity android:name=".MainMenu.MainMenuUser" />
+        <activity android:name=".MainMenu.MainMenuPetcare" />
+        <activity android:name=".MainMenu.MyPetActivity"></activity>
     </application>
 
 </manifest>

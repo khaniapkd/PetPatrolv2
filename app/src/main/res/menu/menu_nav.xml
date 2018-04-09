@@ -3,15 +3,17 @@
 
     <item
         android:title="Home"
-        android:icon="@drawable/lovely_time"/>
+        android:tint="#42A5F5"
+        android:icon="@drawable/ic_home"/>
     <item
         android:title="History"
-        android:icon="@drawable/lovely_time"/>
+        android:tint="#42A5F5"
+        android:icon="@drawable/ic_history"/>
     <item
         android:title="My Pet"
-        android:icon="@drawable/lovely_time"/>
+        android:icon="@drawable/ic_pets"/>
     <item
         android:title="My Account"
-        android:icon="@drawable/lovely_time"/>
+        android:icon="@drawable/ic_account"/>
 
 </menu>

@@ -3,15 +3,15 @@
 
     <item
         android:title="Home"
-        android:icon="@drawable/lovely_time"/>
+        android:icon="@drawable/ic_home"/>
     <item
         android:title="Booked"
-        android:icon="@drawable/lovely_time"/>
+        android:icon="@drawable/ic_booked"/>
     <item
         android:title="Pet Status"
-        android:icon="@drawable/lovely_time"/>
+        android:icon="@drawable/ic_status"/>
     <item
-        android:title="My Shop"
-        android:icon="@drawable/lovely_time"/>
+        android:title="My Petcare"
+        android:icon="@drawable/ic_shop"/>
 
 </menu>
