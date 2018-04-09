@@ -62,7 +62,7 @@
                 android:layout_height="5dp" />
 
             <EditText
-                android:id="@+id/usr_usrpassword"
+                android:id="@+id/usr_sandi"
                 android:layout_width="270dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -98,9 +98,10 @@
                 android:layout_width="270dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:background="#ffb85f"
+                android:onClick="saveDataUser"
                 android:text="@string/usr_submit"
                 android:textColor="#ffffff"
-                android:background="#ffb85f"
                 tools:layout_editor_absoluteX="129dp"
                 tools:layout_editor_absoluteY="446dp" />
 

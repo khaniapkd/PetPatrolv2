@@ -6,23 +6,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.facebook.CallbackManager;
-import com.facebook.FacebookActivity;
-import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
-import com.petpatrol.petpatrolapp.Dashboard.MainMenu;
 import com.petpatrol.petpatrolapp.ForgotPassword.ForgotPassword2;
-import com.petpatrol.petpatrolapp.Register.PetCareRegisterActivity;
 import com.petpatrol.petpatrolapp.R;
-import com.petpatrol.petpatrolapp.SignIn.SignIn;
+import com.petpatrol.petpatrolapp.Register.PetCareRegisterActivity;
 import com.petpatrol.petpatrolapp.SignOut.SignOut;
 
 import java.security.AccessController;
@@ -61,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (firebaseAuth.getCurrentUser() != null) {
 
-                    startActivity(new Intent(MainActivity.this, MainMenu.class) );
+                    startActivity(new Intent(MainActivity.this, SignOut.class) );
                 }
             }
         };
@@ -116,10 +109,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loginFB(View view) {
-        Intent intent = new Intent(MainActivity.this, MainMenu.class);
+        Intent intent = new Intent(MainActivity.this, SignOut.class);
         startActivity(intent);
     }
-
 
     public final class JSSEProvider extends Provider {
 
