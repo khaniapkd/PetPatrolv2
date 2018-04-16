@@ -24,7 +24,7 @@
             android:exported="true" />
         <activity android:name=".Login.MainActivity" />
         <activity android:name=".Register.PetCareRegisterActivity" />
-        <activity android:name=".ForgotPassword.ForgotPassword2" />
+        <activity android:name=".ForgotPassword.ForgotPassword" />
         <activity android:name=".SignIn.SignIn" />
         <activity android:name=".SignOut.SignOut" />
 
